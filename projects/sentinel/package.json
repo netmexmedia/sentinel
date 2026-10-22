@@ -1,6 +1,7 @@
 {
   "name": "@netmex/sentinel",
   "version": "0.0.1",
+  "description": "Lightweight, directive-clean authentication, token lifecycle, and session resilience engine for Angular 22+.",
   "peerDependencies": {
     "@angular/common": "^22.2.0",
     "@angular/core": "^22.2.0",
