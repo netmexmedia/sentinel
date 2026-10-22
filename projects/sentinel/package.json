@@ -1,24 +1,38 @@
 {
   "name": "@netmex/sentinel",
-  "version": "0.0.1",
-  "description": "Lightweight, directive-clean authentication, token lifecycle, and session resilience engine for Angular 22+.",
-  "peerDependencies": {
-    "@angular/common": "^22.2.0",
-    "@angular/core": "^22.2.0",
-    "@angular/router": "^22.2.0",
-    "rxjs": "^7.8.0"
+  "version": "1.0.0",
+  "description": "Lightweight, directive-clean authentication, token lifecycle, and session resilience engine for Angular 19+.",
+  "keywords": [
+    "angular",
+    "auth",
+    "jwt",
+    "session",
+    "token-refresh",
+    "idle-detection",
+    "signals",
+    "netmex"
+  ],
+  "author": "Netmexmedia <info@netmex.nl> (https://netmex.nl)",
+  "homepage": "https://netmex.nl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netmexmedia/sentinel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/netmexmedia/sentinel/issues"
   },
   "publishConfig": {
     "access": "public"
   },
+  "peerDependencies": {
+    "@angular/common": ">=19.0.0",
+    "@angular/core": ">=19.0.0",
+    "@angular/router": ">=19.0.0",
+    "rxjs": "^7.8.0"
+  },
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false,
-  "author": "Netmexmedia <info@netmex.nl> (https://netmex.nl)",
-  "homepage": "https://netmex.nl",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/netmexmedia/sentinel.git"
-  }
+  "sideEffects": false
 }
