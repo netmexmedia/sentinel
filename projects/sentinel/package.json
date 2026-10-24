@@ -1,6 +1,6 @@
 {
   "name": "@netmex/sentinel",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "Lightweight, directive-clean authentication, token lifecycle, and session resilience engine for Angular 19+.",
   "keywords": [
     "angular",
@@ -17,13 +17,27 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/netmexmedia/sentinel.git"
+    "url": "git+https://github.com/netmexmedia/sentinel.git"
   },
   "bugs": {
     "url": "https://github.com/netmexmedia/sentinel/issues"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "main": "./fesm2022/netmex-sentinel.mjs",
+  "module": "./fesm2022/netmex-sentinel.mjs",
+  "typings": "./types/netmex-sentinel.d.ts",
+  "types": "./types/netmex-sentinel.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/netmex-sentinel.d.ts",
+      "esm2022": "./fesm2022/netmex-sentinel.mjs",
+      "default": "./fesm2022/netmex-sentinel.mjs"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    }
   },
   "peerDependencies": {
     "@angular/common": ">=19.0.0",
